@@ -69,7 +69,7 @@ body {
 
 .picture img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -85,6 +85,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px;
 }
 #about-me p {
 	width: 80%;
@@ -250,6 +251,9 @@ input[type="submit"] {
 	#about, #contact .container {
 		align-items: center;
 	}
+	.about-me__introduction{  /*ajout*/
+		width: 100%;
+	}
 	.about-me__title {
 		margin-top: 0;
 		margin-bottom: 1em;
@@ -280,9 +284,12 @@ input[type="submit"] {
 		text-align: center;
 		margin-top: 1em;
 	}
+	
 	#services .container {
 		flex-direction: column;
+		
 	}
+	
 	.service {
 		width: 100%;
 		max-width: 100%;
